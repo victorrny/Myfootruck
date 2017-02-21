@@ -1,0 +1,88 @@
+body {
+	background-color: rgb(252, 253, 253);
+	text-align: center;
+}
+h1 {
+	color: #EC6868;
+	font-size: 20px;
+	text-decoration: #EC6868;
+	font-family: 'Open Sans', sans-serif;
+}
+h2 {
+	color: #27D3D9;
+	font-size: 20px;
+}
+h3 {
+	color: #8DA1A2;
+	font-size: 20px;
+}
+h4 {
+	text-align: center;
+	color: #E9E922;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+div {
+	font-family: 'Open Sans', sans-serif;
+}
+p {  
+	color: #007FD4;
+	text-decoration: all;
+	font-family: 'Open Sans', sans-serif;
+}
+#header {
+	background-image: url(images/city.jpg);
+	background-size: cover;
+	height: 300px;
+	opacity: 30%;
+	font-size: 10px;
+
+}
+.menu-picture {
+	border-radius: 50%;
+	height: 40%;
+	width: 40%;
+}
+
+#footer {
+	font-size: 40px;
+	
+}
+#footer a {
+	color: #72D0C3;
+}
+#footer a:hover {
+	color: rgb(150, 150, 150);
+}
+.spacer {
+	height: 6em;
+}
+
+.style {
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 300px;
+}
+/* How to override the default Bootstrap navbar */
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+  line-height: 50px;
+}
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+  color: white;
+}
